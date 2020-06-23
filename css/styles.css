@@ -24,11 +24,12 @@ a {
 } */
 
 .guide {
-  margin: 20px 0px 10px 0px;
+  margin-bottom: 10px;
 }
 
 .node {
   display: flex;
+  margin-bottom: 20px;
 }
 
 .test {
