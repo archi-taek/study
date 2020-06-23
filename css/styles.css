@@ -1,7 +1,7 @@
 @import "reset.css";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600");
-@import "node_icon_1.css";
-@import "node_icon_2.css";
+@import "node_test_1.css";
+@import "node_test_2.css";
 
 * {
   box-sizing: border-box;
@@ -23,6 +23,10 @@ a {
 /* main {
 } */
 
+.guide {
+  margin: 20px 0px 10px 0px;
+}
+
 .node {
   display: flex;
 }
@@ -42,6 +46,39 @@ a {
   background-color: white;
   color: black;
   border-radius: 4px;
+}
+
+.node_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+}
+
+.node_icon_image {
+  width: 92px;
+  height: 92px;
+  z-index: 2;
+}
+
+.circle_small {
+  /* display: block; */
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.circle_medium {
+  /* display: block; */
+  position: absolute;
+  width: 82px;
+  height: 82px;
+  border-radius: 41px;
+  background-color: rgba(255, 255, 255, 0);
+  /* animation: glow_medium 1.5s linear 0s infinite; */
 }
 
 /* .header {

@@ -1,24 +1,20 @@
-.node_icon_1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 120px;
-  height: 120px;
+@keyframes incomingAnimation_1 {
+  from {
+    opacity: 0;
+    transform: translateY(-300px);
+  }
+  70% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
-.node_icon_image {
-  width: 92px;
-  height: 92px;
-  z-index: 2;
-}
-
-.circle_small_1 {
-  /* display: block; */
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  border-radius: 30px;
-  background-color: rgba(255, 255, 255, 0);
+.test_1_1:hover .node_icon_1_1 {
+  animation: incomingAnimation_1 0.5s ease-in-out forwards;
 }
 
 @keyframes glow_small_1 {
@@ -47,18 +43,8 @@
   }
 }
 
-.node_icon_1:hover .circle_small_1 {
+.test_1_2:hover .circle_small_1_2 {
   animation: glow_small_1 1.5s linear 0s infinite;
-}
-
-.circle_medium_1 {
-  /* display: block; */
-  position: absolute;
-  width: 82px;
-  height: 82px;
-  border-radius: 41px;
-  background-color: rgba(255, 255, 255, 0);
-  /* animation: glow_medium 1.5s linear 0s infinite; */
 }
 
 @keyframes glow_medium_1 {
@@ -93,25 +79,6 @@
   }
 }
 
-.node_icon_1:hover .circle_medium_1 {
+.test_1_2:hover .circle_medium_1_2 {
   animation: glow_medium_1 1.5s linear 0s infinite;
-}
-
-@keyframes incomingAnimation_1 {
-  from {
-    opacity: 0;
-    transform: translateY(-300px);
-  }
-  70% {
-    opacity: 1;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-.test_1:hover .node_icon_1 {
-  animation: incomingAnimation_1 0.5s ease-in-out forwards;
 }
