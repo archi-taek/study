@@ -26,8 +26,18 @@ a {
   text-decoration: none;
 }
 
-/* main {
-} */
+main {
+  display: flex;
+}
+
+.menu {
+  width: 150px;
+}
+
+.menu_list {
+  width: 140px;
+  height: 30px;
+}
 
 .guide {
   margin-bottom: 10px;
