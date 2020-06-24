@@ -41,6 +41,10 @@ main {
   line-height: 40px;
 }
 
+.menu_list {
+  font-size: 11pt;
+}
+
 .guide {
   margin-bottom: 10px;
 }
