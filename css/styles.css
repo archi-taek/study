@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-weight: bold;
   font-size: 16pt;
 }
@@ -26,8 +26,20 @@ a {
   text-decoration: none;
 }
 
-/* main {
-} */
+main {
+  display: flex;
+}
+
+.menu {
+  width: 150px;
+}
+
+.menu_list {
+  width: 140px;
+  height: 40px;
+  /* font-size: 10pt; */
+  line-height: 40px;
+}
 
 .guide {
   margin-bottom: 10px;
