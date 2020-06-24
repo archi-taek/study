@@ -1,6 +1,10 @@
+.menu_list {
+  font-size: 12pt;
+}
+
 .menu_node {
   font-weight: bold;
-  font-size: 14pt;
+  font-size: 16pt;
   /* background-color: grey; */
 }
 

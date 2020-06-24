@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-weight: bold;
   font-size: 16pt;
 }
@@ -36,7 +36,9 @@ main {
 
 .menu_list {
   width: 140px;
-  height: 30px;
+  height: 40px;
+  /* font-size: 10pt; */
+  line-height: 40px;
 }
 
 .guide {
